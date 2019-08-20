@@ -1,0 +1,3 @@
+com\qa\ClassicCRM\TestCases\HomePageTest.class
+com\qa\ClassicCRM\TestCases\LoginPageTest.class
+com\qa\ClassicCRM\TestCases\ContactsPageTest.class

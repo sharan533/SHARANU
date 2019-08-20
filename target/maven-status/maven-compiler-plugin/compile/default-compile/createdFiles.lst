@@ -1,0 +1,10 @@
+Com\qa\ClassicCRM\ExtentReportListener\ExtentReporterNG.class
+Com\qa\ClassicCRM\Pages\DealsPage.class
+Com\qa\ClassicCRM\util\WebEventListener.class
+Com\qa\ClassicCRM\Pages\SignUpPage.class
+Com\qa\ClassicCRM\Pages\LoginPage.class
+Com\qa\ClassicCRM\Pages\ContactsPage.class
+Com\qa\ClassicCRM\util\TestUtil.class
+Com\qa\ClassicCRM\Pages\HomePage.class
+Com\qa\ClassicCRM\Pages\TasksPage.class
+Com\qa\ClassicCRM\base\TestBase.class
