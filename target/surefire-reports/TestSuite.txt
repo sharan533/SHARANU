@@ -1,4 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 168.472 sec - in TestSuite
+Tests run: 24, Failures: 2, Errors: 0, Skipped: 17, Time elapsed: 153.426 sec <<< FAILURE! - in TestSuite
+Setup(com.qa.ClassicCRM.TestCases.ContactsPageTest)  Time elapsed: 20.439 sec  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: circular reference
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHARANU-PC', ip: '192.168.0.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Windows\TEMP\scoped_dir5...}, goog:chromeOptions: {debuggerAddress: localhost:52278}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8819506e6225ac93631e355f986da5dd
+	at com.qa.ClassicCRM.TestCases.ContactsPageTest.Setup(ContactsPageTest.java:34)
+
+verifyContactsLinkTest(com.qa.ClassicCRM.TestCases.HomePageTest)  Time elapsed: 0.692 sec  <<< FAILURE!
+org.openqa.selenium.JavascriptException: 
+javascript error: circular reference
+  (Session info: chrome=76.0.3809.100)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SHARANU-PC', ip: '192.168.0.107', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.100, chrome: {chromedriverVersion: 76.0.3809.12 (220b19a666554..., userDataDir: C:\Windows\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:52463}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 41d0e38c40c94e1cf115bdaad56ee98d
+	at com.qa.ClassicCRM.TestCases.HomePageTest.verifyContactsLinkTest(HomePageTest.java:51)
+
